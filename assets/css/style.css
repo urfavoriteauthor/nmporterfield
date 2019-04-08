@@ -97,34 +97,7 @@ p{
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 480px) {
-  #books{
-    width: 100%;
-  }
-  .lover{
-    width: 50%;
-  }
-  .deadWater{
-    width: 50%;
-  }
-  /* .page-item{
-width: 30%;padding: 10px;  } */
-.page-item{
-  padding: 0 1px; display: inline-block; vertical-align: top; 
-}
-} 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
 /* .lover {
   right: 400px;
   top: 200px;
