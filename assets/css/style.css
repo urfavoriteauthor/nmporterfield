@@ -1,0 +1,234 @@
+body {
+  background-image: url(../images/collagewall.JPG);
+  background-size: 3600px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow-x:hidden;
+}
+
+#ghost {
+  -webkit-transform: rotateY(150deg);
+  transform-style: preserve-3d;
+
+}
+
+#wildlyfe {}
+
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 400px;
+  height: 281px;
+  z-index: 1;
+}
+
+#f1_container {
+  perspective: 1000;
+}
+
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  width: 150px;
+  height: 300px;
+}
+
+#books{
+  background-color: black;
+}
+
+.card-body{
+  background-color:black; color:white;
+}
+#introCard{
+  left:350px;
+}
+
+#newsModal{
+  right: 50%;
+}
+
+.jumbotron-fluid{
+  background-color:black; color:white;
+}
+
+h1{
+  text-align: center; font-weight: bold; letter-spacing: 0.5em;color: ivory; text-shadow: 2px 2px slategrey;
+}
+
+h2{
+  text-align:center;letter-spacing: 1em;color: ivory;
+}
+.nav-item{
+  padding: 30px; font-family: 'Times New Roman', Times, serif;
+}
+h3{
+  
+  text-align:center;color: ivory; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+  color: ivory;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+  #books{
+    width: 100%;
+  }
+  .lover{
+    width: 50%;
+  }
+  .deadWater{
+    width: 50%;
+  }
+  /* .page-item{
+width: 30%;padding: 10px;  } */
+.page-item{
+  padding: 0 1px; display: inline-block; vertical-align: top; 
+}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+/* .lover {
+  right: 400px;
+  top: 200px;
+}
+
+.deadWater {
+  right: 400px;
+  top: 200px;
+}
+
+.ghostContract {
+  right: 400px;
+  top: 200px;
+}
+
+.hunted {
+  right: 400px;
+  top: 200px;
+}
+
+.realm {
+  right: 400px;
+  top: 200px;
+}
+
+.missing {
+  right: 400px;
+  top: -2700px;
+}
+
+.spellbound {
+  right: 400px;
+  top: -2700px;
+}
+
+.journey {
+  top: -1250px;
+  right: -100px;
+}
+
+.journeybeyond {
+  top: -1250px;
+  right: -100px;
+}
+
+.journeyEnd {
+  top: -1250px;
+  right: -100px;
+}
+
+.phantasy {
+  top: -1250px;
+  right: -100px;
+}
+
+.timebreaker {
+  top: -1250px;
+  right: -100px;
+}
+
+.algorithm {
+  bottom: 2700px;
+  left: 550px;
+}
+
+.baron {
+  bottom: 2700px;
+  left: 550px;
+}
+
+.clairvoyance {
+  bottom: 2700px;
+  left: 550px;
+}
+
+.daughter {
+  bottom: 2700px;
+  left: 550px;
+}
+
+.levels {
+  bottom: 2700px;
+  left: 550px;
+}
+
+
+
+.dealt {
+  top: -3400px;
+  right: -100px;
+}
+
+.sheloves {
+  top: -3550px;
+  right: -100px;
+}
+
+.blaze {
+  bottom: 3900px;
+  left: 550px;
+}
+
+
+.warlok {
+  bottom: 3900px;
+  left: 550px;
+} */
